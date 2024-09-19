@@ -37,12 +37,13 @@ body{
 }
 
 .greetings{
-    font-size: 7rem;
+    font-size: 15rem;
     font-weight: 900;
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
 }
+
 @keyframes glow{
     0%, 100%{
         color: #fff;

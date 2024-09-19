@@ -39,7 +39,8 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
+  top:0;
+  margin-top: 30px;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
   position: absolute;
@@ -1653,3 +1654,29 @@ h1 {
 }
 
 /* Agregar más estilos según sea necesario */
+.botones{
+  padding: 9px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: none;
+}
+.button{
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+.botones a{
+  text-decoration: none;
+  /* background-color: #0a2be9; */
+  padding: 9px;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+
+}
+
+.botones a:focus{
+  background-color: rgb(50, 194, 194);
+}
